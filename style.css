@@ -29,9 +29,13 @@ background-color: #fff;
     
 }
 
+#logo{
+    width: 150px;
+}
+
 
 h1{
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 .menu{
@@ -52,7 +56,7 @@ ul{
 }
 
 li{
-    font-size: 1em;
+    font-size: 1.1em;
     list-style: none;
     padding: 5px;
     color: #fff;
@@ -75,25 +79,24 @@ li:hover{
  padding: 5px;
  background-image: url(assets/Aspectos-de-Qualidade-do-Pão-Artesanal-certo-min.jpg);
  background-size: 100%;
-     background-repeat: no-repeat;
+background-repeat: no-repeat;
 width: 100%;
  height: 850px;
 
    
 }
 
-
+/*-------conteudo principal-------------------*/
 .mainBox{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
-   
-    gap: 80px;
+    gap:80px;
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: #fff;
     margin-top: 50px;
+    justify-content: center;
 
 
 }
@@ -102,7 +105,7 @@ width: 100%;
 h2{
     
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-family: 'Nunito', sans-serif;
     margin-top: 15px;
     margin-bottom: -19px;
@@ -120,88 +123,58 @@ h2:hover{
 
 }
 
-
+#box{
+    background-size: cover;
+   
+    width: 180px;
+   height: 200px;
+   border-radius: 10px;
+   transition: 0.5ms;
+   
+   
+ 
+}
 
 .boxOne{
     background-image: url(assets/variados.jpg);
     background-position: center;
-  
     background-size: cover;
-    width: 190px;
-   height: 200px;
-   border-radius: 5px;
-   transition: 0.5ms;
-   background-repeat: no-repeat;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+   
 }
 
 .boxTwo{
     background-image: url(assets/receita_pao-australiano_IMG_4239.jpg);
+    background-position: center;
     background-size: cover;
-    width: 190px;
-   height: 200px;
-   border-radius: 5px;
-   transition: 0.5ms;
-   background-repeat: no-repeat;
+    flex-wrap:wrap;
+    transition: 0.5ms;
 }
 
 .boxThre{
-    background-image: url(assets/Pao-de-Deus-coco-Baixa-11.jpg.webp);
+    background-image: url(assets/bolo.jpg);
     background-position: center;
     background-size: cover;
-    width: 190px;
-   height: 200px;
-   border-radius: 5px;
-   transition: 0.5ms;
-   background-repeat: no-repeat;
+    flex-wrap:wrap;
+    transition: 0.5ms;
 }
 
 .boxFour{
     background-image: url(assets/pao-delicia.jpg.crdownload);
     background-position: center;
     background-size: cover;
-    width: 190px;
-   height: 200px;
-   border-radius: 5px;
-   transition: 0.5ms;
-   background-repeat: no-repeat;
-}
-
-.boxFive{
-    background-image: url(assets/bolo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 190px;
-   height: 200px;
-   border-radius: 5px;
-   transition: 0.5ms;
+    flex-wrap:wrap;
+    transition: 0.5ms;
 }
 
 
 
-.boxOne:hover{
-    
-   
-}
-
-.boxTwo:hover{
-    
-}
-
-.boxThre:hover{
-    
-}
-
-.boxFour:hover{
-    
-}
-
-.boxFive:hover{
-    
-}
 
 
 
+
+/*-----------rodape--------------*/
 
 
 .info{
@@ -230,6 +203,7 @@ h2:hover{
     margin-top: -8px;
     margin-left: 5px;
     color: black;
+    font-size: 1em;
 }
 
 .img , p:hover{
@@ -240,31 +214,459 @@ h2:hover{
 
 /*------------Responsividade----------------------------*/
 
-@media(max-width:800px){
+@media(max-width:960px){
+
+  
+/*---------------Topo do site----------------------*/
 
 
+
+.top{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+#logo{
+    width: 130px;
+}
+
+
+h1{
+    font-size: 2.3em;
+}
+
+.menu{
+    background-color: #E7931A;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}
+
+li{
+    font-size: 1em;
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5ms;
+
+}
+
+li:hover{
+    
+    color: rgba(255, 255, 255, 0.582);
+   
+
+}
+
+
+.container{
+   
+
+ padding: 5px;
+ background-image: url(assets/Aspectos-de-Qualidade-do-Pão-Artesanal-certo-min.jpg);
+ background-size: 100%;
+background-repeat: no-repeat;
+width: 100%;
+ height: 550px;
+
+   
+}
+
+/*-------conteudo principal-------------------*/
+.mainBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:60px;
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+    margin-top: 50px;
+    justify-content: center;
+
+
+}
+
+
+h2{
+    
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 15px;
+    margin-bottom: -19px;
+    padding: 10px;
+  
+    height: 80px;
+    
+
+}
+
+h2:hover{
+    
+    color: rgba(7, 1, 1, 0.685);
+    
+
+}
+
+#box{
+    background-size: cover;
+   
+    width: 170px;
+   height: 190px;
+   border-radius: 10px;
+   transition: 0.5ms;
+   
+   
+ 
+}
+
+.boxOne{
+    background-image: url(assets/variados.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+   
+}
+
+.boxTwo{
+    background-image: url(assets/receita_pao-australiano_IMG_4239.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+.boxThre{
+    background-image: url(assets/bolo.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+.boxFour{
+    background-image: url(assets/pao-delicia.jpg.crdownload);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+
+
+
+
+
+
+/*-----------rodape--------------*/
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #E7931A;
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff;
+    height: 100px;
+
+}
+.rodape{
+    color: black;
+}
+
+.rodape:hover{
+    color:rgba(0, 0, 0, 0.74);
+}
+
+.img , p{
+    display: flex;
+    margin-top: -8px;
+    margin-left: 5px;
+    color: black;
+    font-size: 0.8em;
+}
+
+.img , p:hover{
+    
+    color: rgba(0, 0, 0, 0.74);
+}
+  
+
+}
+
+
+
+
+
+/*------------Responsividade----------------------------*/
+
+@media(max-width:570px){
+    
+/*---------------Topo do site----------------------*/
+
+
+
+.top{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+#logo{
+    width: 90px;
+}
+
+
+h1{
+    font-size: 2em;
+}
+
+.menu{
+    background-color: #E7931A;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+li{
+    font-size: 0.8em;
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5ms;
+
+}
+
+li:hover{
+    
+    color: rgba(255, 255, 255, 0.582);
+   
+
+}
+
+
+.container{
+   
+
+ padding: 5px;
+ background-image: url(assets/Aspectos-de-Qualidade-do-Pão-Artesanal-certo-min.jpg);
+ background-size: 100%;
+background-repeat: no-repeat;
+width: 100%;
+ height: 550px;
+
+   
+}
+
+/*-------conteudo principal-------------------*/
+.mainBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:60px;
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+    margin-top: 50px;
+    justify-content: center;
+
+
+}
+
+
+h2{
+    
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 15px;
+    margin-bottom: -19px;
+    padding: 10px;
+  
+    height: 80px;
+    
+
+}
+
+h2:hover{
+    
+    color: rgba(7, 1, 1, 0.685);
+    
+
+}
+
+#box{
+    background-size: cover;
+   
+    width: 170px;
+   height: 190px;
+   border-radius: 10px;
+   transition: 0.5ms;
+   
+   
+ 
+}
+
+.boxOne{
+    background-image: url(assets/variados.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+   
+}
+
+.boxTwo{
+    background-image: url(assets/receita_pao-australiano_IMG_4239.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+.boxThre{
+    background-image: url(assets/bolo.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+.boxFour{
+    background-image: url(assets/pao-delicia.jpg.crdownload);
+    background-position: center;
+    background-size: cover;
+    flex-wrap:wrap;
+    transition: 0.5ms;
+}
+
+
+
+
+
+
+
+/*-----------rodape--------------*/
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #E7931A;
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff;
+    height: 100px;
+
+}
+.rodape{
+    color: black;
+}
+
+.rodape:hover{
+    color:rgba(0, 0, 0, 0.74);
+}
+
+.img , p{
+    display: flex;
+    margin-top: -8px;
+    margin-left: 5px;
+    color: black;
+    font-size: 0.8em;
+}
+
+.img , p:hover{
+    
+    color: rgba(0, 0, 0, 0.74);
+}
+  
+
+}
+
+
+
+/*------------Responsividade----------------------------*/
+
+@media(max-width:440px){
+    
+    /*---------------Topo do site----------------------*/
+    
+    
+    
     .top{
-
+    
         display: flex;
         flex-direction: row;
         width: 100%;
         height: 130px;
         justify-content: center;
         align-items: center;
-        gap: 130px;
+        gap: 40px;
         margin-top: 10px;
         padding: 5px;
         
     }
     
+    #logo{
+        width: 90px;
+    }
+    
     
     h1{
-        font-size: 2.2em;
+        font-size: 1.8em;
     }
     
     .menu{
         background-color: #E7931A;
-        padding: 7px;
+        padding: 8px;
         margin-top: 10px;
         display: flex;
         justify-content: center;
@@ -275,12 +677,12 @@ h2:hover{
     ul{
         display: flex;
         flex-direction: row;
-        gap: 80px;
+        gap: 40px;
     
     }
     
     li{
-        font-size: 1em;
+        font-size: 0.7em;
         list-style: none;
         padding: 5px;
         color: #fff;
@@ -303,24 +705,24 @@ h2:hover{
      padding: 5px;
      background-image: url(assets/Aspectos-de-Qualidade-do-Pão-Artesanal-certo-min.jpg);
      background-size: 100%;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     width: 100%;
-     height: 850px;
+     height: 350px;
     
        
     }
     
-    
+    /*-------conteudo principal-------------------*/
     .mainBox{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-       
-        gap: 40px;
+        flex-wrap: wrap;
+        gap:50px;
         width: 100%;
-        height: 300px;
+        height: 490px;
         background-color: #fff;
         margin-top: 50px;
+        justify-content: center;
     
     
     }
@@ -329,13 +731,13 @@ h2:hover{
     h2{
         
         text-align: center;
-        font-size: 2.2em;
+        font-size: 1.8em;
         font-family: 'Nunito', sans-serif;
         margin-top: 15px;
         margin-bottom: -19px;
         padding: 10px;
       
-        height: 100px;
+        height: 80px;
         
     
     }
@@ -347,83 +749,58 @@ h2:hover{
     
     }
     
-    
+    #box{
+        background-size: cover;
+       
+        width: 170px;
+       height: 190px;
+       border-radius: 10px;
+       transition: 0.5ms;
+       
+       
+     
+    }
     
     .boxOne{
         background-image: url(assets/variados.jpg);
         background-position: center;
-      
         background-size: cover;
-        width: 150px;
-       height: 180px;
-       border-radius: 5px;
-       transition: 0.5ms;
+        flex-wrap:wrap;
+        transition: 0.5ms;
+       
     }
     
     .boxTwo{
         background-image: url(assets/receita_pao-australiano_IMG_4239.jpg);
+        background-position: center;
         background-size: cover;
-        width: 150px;
-       height: 180px;
-       border-radius: 5px;
-       transition: 0.5ms;
+        flex-wrap:wrap;
+        transition: 0.5ms;
     }
     
     .boxThre{
-        background-image: url(assets/Pao-de-Deus-coco-Baixa-11.jpg.webp);
+        background-image: url(assets/bolo.jpg);
         background-position: center;
         background-size: cover;
-        width: 150px;
-       height: 180px;
-       border-radius: 5px;
-       transition: 0.5ms;
+        flex-wrap:wrap;
+        transition: 0.5ms;
     }
     
     .boxFour{
         background-image: url(assets/pao-delicia.jpg.crdownload);
         background-position: center;
         background-size: cover;
-        width: 150px;
-       height: 180px;
-       border-radius: 5px;
-       transition: 0.5ms;
-    }
-    
-    .boxFive{
-        background-image: url(assets/bolo.jpg);
-        background-position: center;
-        background-size: cover;
-        width: 150px;
-       height: 180px;
-       border-radius: 5px;
-       transition: 0.5ms;
+        flex-wrap:wrap;
+        transition: 0.5ms;
     }
     
     
     
-    .boxOne:hover{
-       
-       
-    }
-    
-    .boxTwo:hover{
-       
-    }
-    
-    .boxThre:hover{
-        
-    }
-    
-    .boxFour:hover{
-       
-    }
-    
-    .boxFive:hover{
-        
-    }
     
     
     
+    
+    /*-----------rodape--------------*/
     
     
     .info{
@@ -431,10 +808,10 @@ h2:hover{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 100px;
+        gap: 80px;
         background-color: #E7931A;
         margin-top: 20px;
-        padding: 10px;
+        padding: 15px;
         color: #fff;
         height: 100px;
     
@@ -452,23 +829,17 @@ h2:hover{
         margin-top: -8px;
         margin-left: 5px;
         color: black;
+        font-size: 0.5em;
     }
     
     .img , p:hover{
         
         color: rgba(0, 0, 0, 0.74);
     }
-
-
-
-}
-
-
-
-
-
-
-
-
+      
+    
+    }
+    
+    
 
 

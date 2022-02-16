@@ -114,6 +114,9 @@ width: 100%;
 
 #descricao{
     margin-top: 15px;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 }
@@ -323,6 +326,14 @@ width: 100%;
 
 }
 
+#descricao{
+    margin-top: 15px;
+    font-size: 0.7em;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
 
 h2{
     
@@ -534,6 +545,14 @@ width: 100%;
 
 }
 
+#descricao{
+    margin-top: 15px;
+    font-size: 0.7em;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
 
 h2{
     
@@ -744,6 +763,14 @@ h2:hover{
     }
     
     
+#descricao{
+    margin-top: 15px;
+    font-size: 0.6em;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
     h2{
         
         text-align: center;
@@ -953,6 +980,14 @@ h2:hover{
     }
     
     
+#descricao{
+    margin-top: 15px;
+    font-size: 0.5em;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
     h2{
         
         text-align: center;

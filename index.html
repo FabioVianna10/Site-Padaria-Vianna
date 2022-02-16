@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/pao ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/ico novo pao.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Roboto&display=swap" 
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32f66c0faa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Padaria Vianna</title>
 </head>
@@ -34,10 +36,16 @@
 
             <ul>
 
-                <li>Sobre nós</li>
-                <li>Produtos</li>
-                <li>Trabalhe conosco</li>
-                <li>Contato</li>
+                <a href="#descricao">
+                    <li>Sobre nós</li>
+                </a>
+                <a href="#mainBox">
+                    <li>Produtos</li>
+                </a>
+                <a href="#contato">
+                    <li>Trabalhe conosco</li>
+                </a>
+             
                 
 
             </ul>
@@ -48,12 +56,18 @@
 
         <section  >
 
+           
+
             <div class="container">
 
             </div>
+
+            <h2>Sobre nós</h2>
+            <p id="descricao"> A Padaria Vianna funciona das 6h às 22h,temos café da manhã e café da tarde completo, trabalhamos também com sopas e caldos, venha provar nosso pão francês, é considerado o melhor pão da região.Estamos aguardando anciosos pela sua visita.
+                 </p>
             <h2>Variedades</h2>
 
-            <div class="mainBox">
+            <div id ="mainBox"class="mainBox">
 
 
                 <div id="box" class="boxOne"></div>
@@ -74,6 +88,10 @@
         </section>
 
 
+        <section>
+
+   
+
 
 
     </main>
@@ -83,7 +101,7 @@
 
         <div class="info">
 
-        <p class="rodape">Telefone: 19 99285-7395 <a href="http://wa.me/5519992857395"><img src="assets/phone.svg" target="_blank" alt="telefone"></a></p>
+        <p   id="contato"class="rodape">Telefone: 19 99285-7395 <a href="http://wa.me/5519992857395"><img src="assets/phone.svg" target="_blank" alt="telefone"></a></p>
       
 
 
@@ -92,7 +110,7 @@
     </div>
     </footer>
 
-   
+   <script src="script.js"></script>
 </body>
 </html>
 

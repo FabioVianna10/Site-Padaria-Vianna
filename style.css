@@ -115,8 +115,10 @@ width: 100%;
 #descricao{
     margin-top: 15px;
     font-size: 0.8em;
-    font-weight: 300;
+    font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+   
 
 
 }
@@ -162,6 +164,7 @@ h2:hover{
     transition: 0.5ms;
    
 }
+
 
 .boxTwo{
     background-image: url(assets/receita_pao-australiano_IMG_4239.jpg);
